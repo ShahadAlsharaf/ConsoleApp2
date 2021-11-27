@@ -10,7 +10,7 @@ using System.Linq;
         public static string Name;
         public static string Class;
         public static string Section;
-        //public static string VerifyArray;
+       
 
         static void Main(string[] args)
         {
@@ -21,7 +21,9 @@ using System.Linq;
             Console.WriteLine("-             to the rainbow school!                  -");
             Console.WriteLine("-                                                     -");
             Console.WriteLine("-------------------------------------------------------");
-            // Getting the user id
+            Console.WriteLine("--------------------------------------------------------------");
+            Console.WriteLine("You can Update or add data by inserting your ID:");
+            // Getting the user id 
             Console.WriteLine("ID:");
             ID = Convert.ToInt32(Console.ReadLine());
             // Getting the user name
@@ -41,8 +43,8 @@ using System.Linq;
         // Running the File
         public static void RunFile()
         {
-            
-         string dir = Directory.GetCurrentDirectory();
+            // directory
+         string directory = Directory.GetCurrentDirectory();
          string FileName = "Teachers.txt";
         // checks if the file name is exisit or not and perform action
          if (File.Exists(FileName))
