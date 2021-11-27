@@ -69,6 +69,7 @@ using System.Linq;
                             }
                         }
                         Console.WriteLine("Data has been updated sussufully!");
+                        Console.WriteLine("Thank you for using our system!");
                     }
                     }
                 }
