@@ -44,7 +44,7 @@ using System.Linq;
         public static void RunFile()
         {
             // directory
-         string directory = Directory.GetCurrentDirectory();
+         string dir = Directory.GetCurrentDirectory();
          string FileName = "Teachers.txt";
         // checks if the file name is exisit or not and perform action
          if (File.Exists(FileName))
